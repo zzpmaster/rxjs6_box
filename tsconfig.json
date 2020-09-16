@@ -1,16 +1,19 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
-    "module": "es6",
-    "moduleResolution": "node",
-    "target": "es5",
+    "module": "commonjs",
+    "target": "es2015",
     "noImplicitAny": false,
     "sourceMap": true,
+    "esModuleInterop": true,
     "mapRoot": "",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true, 
+    "lib": [
+      "es2018", "ES6", "DOM"
+    ]
   },
   "include": [
-    "src/**/*"
+    "./src/**/*.ts"
   ]
 }

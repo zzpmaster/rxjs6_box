@@ -23,10 +23,12 @@ Observable.from(datas).mergeMap((item: any) => {
 });
  */
 
-// async scheduler
-Scheduler.async.schedule((state) => {
-    console.log(state);
-    // action.schedule(state + 1, 1000);
-}, 2000, 1);
+export default function() {
+    // async scheduler
+    Scheduler.async.schedule((state) => {
+        console.log(state);
+        // action.schedule(state + 1, 1000);
+    }, 2000, 1);
 
-console.log(2);
+    console.log(2);
+}

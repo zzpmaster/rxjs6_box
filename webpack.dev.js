@@ -18,7 +18,7 @@ module.exports = merge({
   devServer: {
     contentBase: './dist',
     port: 9000,
-    open: true,
+    open: true
   },
   plugins: [
   ],
