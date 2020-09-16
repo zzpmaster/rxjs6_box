@@ -1,3 +1,6 @@
-import scheduler from './operators/scheduler';
+import scheduler from './schedular/scheduler';
+import buffer from './operators/transformation/buffer';
 
 scheduler();
+
+buffer();
